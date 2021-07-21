@@ -1,0 +1,1 @@
+importScripts("https://cdn.jsdelivr.net/npm/workbox-sw/build/workbox-sw.js"),workbox.core.setCacheNameDetails({prefix:"CC的部落格"}),self.skipWaiting(),workbox.core.clientsClaim(),workbox.precaching.precacheAndRoute([{revision:"8078fb8b79e25e991976894ba289e187",url:"./index.html"}],{directoryIndex:null}),workbox.precaching.cleanupOutdatedCaches();
